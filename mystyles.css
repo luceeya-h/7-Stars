@@ -1,0 +1,23 @@
+body {
+	margin :30%;
+	height:100vh;
+	background: linear-gradient(to bottom , beige 50%,  powderblue 50%);
+	background:   color-mix(beige 50% , powderblue 50%);	
+	
+ }
+form {
+     border-style :solid;
+	 padding-left: 20px;
+	 padding-bottom: 30px;
+	 padding-right:0px;
+	 border-radius:15px;
+	border-width:10px;
+	
+	 
+}
+p{
+	border:5px;
+}
+form {
+	background:white;
+}
