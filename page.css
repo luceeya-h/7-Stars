@@ -1,0 +1,193 @@
+
+  h1 {
+    color: black;
+    font-size: 80px;
+    font-style: bold ;
+    margin-left: 40px;
+  }
+  p {
+    color: black;
+    margin-left: 40px;
+    
+  }
+  p {
+    
+    padding: 1px;
+  font-size: larger;
+    border: none; /* Remove border */
+  }
+
+  a:link {
+    color: rgb(24, 68, 214);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+    /* CSS for styling the panels */
+
+  .panel-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px); /* Custom width for columns */
+    grid-auto-rows: 195px; /* Custom height for rows */
+    gap: 15px; /* Gap between panels */
+    
+  }
+
+  .panel {
+    background-color: #f0f0f0;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5%; /* Make corners circular */
+    margin-left: 400px;
+    margin-top: 20px;
+    position: relative; /* Enable positioning context */
+    width: 300px; /* Set the width of the panel */
+    height: 200px; /* Let the height adjust based on content */
+    
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+ 
+  }
+  
+
+  .panel-heading {
+    position: center; /* Position the heading absolutely */
+    top: 200px; /* Position from the top */
+    left: 200px; /* Position from the left */
+    margin: 100; /* Reset margin */
+
+  }
+
+.panel1{
+  width: 625px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  background-color: #f0f0f0;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5%; /* Make corners circular */
+  margin-left: 400px;
+  margin-top: 45px;
+ 
+}
+
+
+
+  .panel-text {
+    text-align: center; /* Horizontal alignment */
+    font-size: 16px; /* Set the font size of the text */
+    line-height: 1.5; /* Set the line height for better readability */
+    text-align: justify; /* Justify the text for a clean look */
+  }
+
+  body {
+    zoom: 110%;
+    -moz-transform: scale(0.67); /* Firefox */
+    -webkit-transform: scale(0.67); /* Chrome, Safari, Opera */
+    transform: scale(0.67); /* Standard syntax */
+    transform-origin: 0 0; /* Make sure it scales from the top left corner */
+
+    .panel3 {
+      width: 200px; /* Adjust the width as needed */
+      height: 150px; /* Adjust the height as needed */
+      background-color: #841ca3; /* Background color */
+      border: 1px solid #000; /* Border */
+      position: absolute; /* Positioning type */
+      top: 50px; /* Distance from the top */
+      left: 50px; /* Distance from the left */
+  }
+
+}
+
+ .label1{
+  margin-left: 1200px;
+  top:270px;
+  font-size: 20px;
+  position: absolute;
+  margin-bottom: 20px;
+  margin-left: 1100px;
+  width: 30px;
+  left: 5px; /* Adjust left position as needed */
+  transform: translateY(-50%);
+  color: #0c0c0c; /* Adjust color as needed */
+  pointer-events: none; /* Prevent label from interfering with input focus */
+
+ }      
+
+
+ /* CSS to hide the image by default */
+ #myImage {
+  display: none;
+}
+
+
+ .message-input {
+  position: absolute; /* Positioning type */
+  top: 490px; /* Distance from the top */
+  left: 1250px; /* Distance from the left */
+  transform: translate(-50%, -50%); /* Centering the input */
+  width: 300px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  font-size: 20px;
+}
+
+.message-input textarea {
+  width: 150%; /* Full width */
+  height: 150%; /* Full height */
+  padding: 10px; /* Padding */
+  font-size: 16px; /* Font size */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Border radius */
+}
+
+button:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover, a:active {
+  background-color: rgb(184, 192, 184);
+}
+
+.button1{
+  position: absolute;
+  width: 400px ;
+  margin-left: 1165px;
+  top: 685px;
+  font-size: larger;
+  border-radius: 20px;
+  height: 80px;
+ 
+
+}
+
+.body{
+background-image: url('pic.jpg'); /* URL of the background image */
+background-size: cover; /* Cover the entire background */
+background-repeat: no-repeat; /* Do not repeat the background image */
+zoom:80%;
+max-width: 100px; /* Set maximum width of the page */
+
+
+}
+
+
+
+
