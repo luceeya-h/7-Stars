@@ -1,0 +1,142 @@
+body {
+	background-image: url(photo-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ h2{
+    font-size: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30%;
+ }
+.label{
+    font-size: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+ }
+ 
+nav{
+    background-color:black;
+    display:grid;
+    place-items: center ;
+  }
+  nav ul{
+    list-style-type:circle;
+  }
+  nav ul a{
+    display:inline-block;
+    padding:20px;
+    text-decoration:dashed;
+    color:beige;
+    transition:0.2s ease-in;
+    font-size:19px;
+  }
+  footer{
+    background-color: black;
+    color:white;
+    padding:21px;
+    margin:8px;
+    position: absolute;
+  }
+  .row{
+      display: flex;
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 100%;
+      padding-right: calc(var(--bs-gutter-x) / 2);
+      padding-left: calc(var(--bs-gutter-x) / 2);
+      margin-top: var(--bs-gutter-y);
+  }
+  .col-md-4{
+      width: 30%;
+      float:left;
+      text-align: center;
+      border-radius: 25px;
+      height: auto;
+      display: flex;
+      margin: 20px;
+  }
+  .col-md-6{
+      width: 25%;
+      float:left;
+      text-align: left;
+      border-radius: 25px;
+      height: auto;
+      display: flex;
+      margin: 20px;
+  }
+  
+  
+  .minfooter{
+    text-align: center;
+}
+.section-titleff-secondarytext-starttext-primaryfw-normalmb-4{
+    position: relative;
+    display: inline-block;
+    color: darkorange!important;
+    font-family: 'Pacifico';
+    font-style: cursive;
+    font-size: 20px;
+}
+.icons p i{
+    font-size: 1em;
+    color: white;
+    opacity: 0.9;
+    margin-right: 3%;
+}
+footer{
+
+    width: 95%;
+    color: white;
+    font-size: 16px;
+    display: relative;
+    height: 400px;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.footercontainer p li{
+    text-align: center;
+    list-style: none;
+    margin-left: 30%;
+}
+.socialicons{
+   display: flex;
+   justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: palevioletred;
+    transition: 0,5s;
+}  
+  nav ul a:hover{
+    background-color:beige;
+    color:black;
+  }
+form {
+   margin-left: 30%;
+     border-style :bold;
+     border-color: black;
+     border-radius: 10px;
+	 padding-left: 20px;
+	 padding-bottom: 30px;
+	 padding-right:0px;
+     background:white;
+     width: 500px;
+     align-items: center;
+	 
+}
+
+p{
+	border:5px;
+}

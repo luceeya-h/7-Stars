@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Reservations Page</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <a href="home.html"><li>Home</li></a>
+          <a href="orders.html"><li>Order</li></a> 
+          <a href ="gallery.html"><li>Gallery</li></a>
+          <a href ="menu.html"><li>Menu</li></a>
+          <a href ="history.html"><li>History</li></a>
+          <a href ="about.html"><li>About Us</li></a>
+          <a href ="contactus.html"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+    <form>
+        <h2>Make a reservation</h2>
+        <p>
+        <label>Date</label>
+        <input type="date" name="date">
+        </p>
+        <br>
+        <p> <label for= "specifictime">Select time:</label>
+        <select id="specifictime" name="specifictime"> 
+        <option value="12:00">12:00 PM</option>
+        <option value="17:00">17:00 PM</option>
+        <option value="21:00">21:00 PM</option>
+        </select></p>
+        <br>
+        <p><label for="quantity">Table of:</label>
+        <input type="number" id="table of"  name="quantity" min="1" max="10"></p>
+        <br>
+        <p><label>First name</label>
+        <input type="text" name="Fisrt name" ></p>
+        <br>
+        <p><label>Last name</label>
+        <input type="text" name="Last name"></p>
+        <br>
+        <p><label>Email</label>
+        <input type="Email" name="Email"></p>
+        <br>
+        <p><label for="telNo">Phone number:</label>
+        <input type="tel" name="Phone number" id ="telNo" ></p>
+        <input type="submit" value="reserve" width="100px">
+        </form>
+        <footer>
+            <div class="footercontainer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <h4 class="section-titleff-secondarytext-starttext-primaryfw-normalmb-4">Company</h4>
+                            <li><a class="btn btn-link" href="">About Us</a></li>
+                            <li><a class="btn btn-link" href="">Contact Us</a></li>
+                            <li><a class="btn btn-link" href="">Reservation</a></li>
+                            <li><a class="btn btn-link" href="">Privacy Policy</a></li>
+                            <li><a class="btn btn-link" href="">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md-6">
+                        <ul>
+                            <h4 class="section-titleff-secondarytext-starttext-primaryfw-normalmb-4">Contact</h4>
+                            <div class="icons">
+                                <p><i class="fa fa-map-marker-alt me-3"></i>HIT, Ganges Road, Belvedere, Harare</p>
+                                <p><i class="fa fa-phone"></i>+263 713334387</p>
+                                <p><i class="fa fa-envelope"></i>info@7starsfamres.com</p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class=" col-md-6">
+                        <ul>
+                            <h4 class="section-titleff-secondarytext-starttext-primaryfw-normalmb-4">Social-Media Platforms</h4>
+                            <div class="d-flex pt-2">
+                                <div class="socialicons">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-google"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="minfooter">
+                <p> 2024 7 Stars-Family Restaurant. All rights reserved.</p>
+            </div> 
+        </footer>
+</body>
+</html>

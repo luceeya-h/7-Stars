@@ -1,0 +1,229 @@
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.minfooter{
+  text-align: center;
+}
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+nav ul {
+  list-style-type: circle;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 15px;
+  list-style-type:circle;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: dashed;
+  font-size: 19px;
+  font-weight: bold;
+  padding:20px;
+  transition:0.2s ease-in;
+}
+nav ul li a:hover{
+  background-color:beige;
+  color:#333;
+}
+.hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.featured-dishes {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.featured-dishes h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.dish {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.dish img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dish h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  color: #333;
+}
+.dish p {
+  font-size: 16px;
+  color: #777;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  }
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .featured-dishes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .dish h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .dish p {
+    font-size: 14px;
+  }
+}
+.col-md-4{
+  width: 30%;
+  float:left;
+  text-align: center;
+  border-radius: 25px;
+  height: auto;
+  display: flex;
+  margin: 20px;
+}
+.col-md-6{
+  width: 30%;
+  float:left;
+  text-align: left;
+  border-radius: 25px;
+  height: auto;
+  display: flex;
+  margin: 20px;
+}
+.footercontainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.footercontainer p li{
+  text-align: center;
+  list-style: none;
+  margin-left: 30%;
+}
+.socialicons{
+ display: flex;
+ justify-content: center;
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.socialicons a:hover{
+  background-color: palevioletred;
+  transition: 0,5s;
+}
